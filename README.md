@@ -1,7 +1,8 @@
 # jacquelineyue.github.io
 
-## Twitter @oiyana
+####Twitter @oiyana
+https://twitter.com/oiyana
 
-Github:
-https://github.com/jacquelineyue/
 
+####Github @jacquelineyue
+https://github.com/jacquelineyue

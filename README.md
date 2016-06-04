@@ -1,8 +1,11 @@
-# oiyana.github.io
+Hi!
+
+This is Jac, Jacqueline Yue.
+Senior Product Designer and Product Lead @BuzzFeed
 
 ####Twitter @oiyana
 https://twitter.com/oiyana
 
 
-####Github @jacquelineyue
-https://github.com/jacquelineyue
+####Github @oiyana
+https://github.com/oiyana

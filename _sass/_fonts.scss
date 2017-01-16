@@ -1,0 +1,14 @@
+// font and type style add-ons
+
+@import "../node_modules/bf-solid/_lib/solid";
+
+@include generate-breakpoint-prefixes {
+
+  &text-intro {
+    font-family: 'Merriweather', Georgia, serif !important;
+    font-weight: 300 !important;
+    line-height: 1.8 !important;
+    font-size: $text-4;
+  }
+
+};

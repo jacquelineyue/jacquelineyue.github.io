@@ -1,9 +1,9 @@
 .wrapper {
-  max-width: 60rem;
+  max-width: 80rem;
 }
 
 .buzzfeed-svg {
   fill: $fill-red;
   width: 6rem;
-  top: 1px //to align with text (xs-relative is declared on the element)
+  top: 1px; //to align with text (xs-relative is declared on the element)
 }

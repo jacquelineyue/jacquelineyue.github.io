@@ -1,0 +1,29 @@
+// Style for post page
+
+.link-royal {
+  color: $royal;
+  border-bottom: 3px solid #FFF;
+  padding-bottom: $space-1;
+  font-weight: 700;
+  &:hover {
+    border-bottom: 3px solid $royal;
+  }
+}
+
+.icon-social {
+  width: 2rem;
+  height: 2rem;
+  fill: $charcoal;
+  &:hover {
+    fill: lighten($royal, 10%);
+    transition: .15s ease 0s;
+  }
+}
+
+.fill-chambray     { background-color:     $chambray; }
+.fill-charcoal     { background-color:     $charcoal; }
+.fill-royal        { background-color:     $royal; }
+
+.text-chambray     { color:     $chambray; }
+.text-charcoal     { color:     $charcoal; }
+.text-royal        { color:     $royal; }

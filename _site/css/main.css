@@ -3022,11 +3022,11 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 
 .card { box-shadow: 0 1px 0 rgba(173, 168, 168, 0.1), 0 2px 1px rgba(181, 179, 179, 0.1); border: 1px solid rgba(41, 41, 41, 0.1); background-color: #fff; border-radius: 3px; }
 
-.xs-text-intro { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; font-size: 1rem; }
+.xs-text-intro { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; }
 
-@media (min-width: 40rem) { .sm-text-intro { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; font-size: 1rem; } }
-@media (min-width: 52rem) { .md-text-intro { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; font-size: 1rem; } }
-@media (min-width: 64rem) { .lg-text-intro { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; font-size: 1rem; } }
+@media (min-width: 40rem) { .sm-text-intro { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; } }
+@media (min-width: 52rem) { .md-text-intro { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; } }
+@media (min-width: 64rem) { .lg-text-intro { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; } }
 .link-royal { color: #4C70CA; border-bottom: 2px solid #FFF; padding-bottom: 0.2rem; font-weight: 700; }
 .link-royal:hover { border-bottom: 3px solid #4C70CA; }
 

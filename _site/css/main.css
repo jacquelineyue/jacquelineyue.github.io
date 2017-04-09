@@ -1667,7 +1667,7 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 .pagination--small .pagination__button { padding: 0.3125rem .625rem; font-size: 0.875rem; line-height: 1.25rem; }
 .pagination--small .pagination__text { font-size: 0.875rem; }
 
-.wrapper { max-width: 80rem; }
+.wrapper { max-width: 80rem; height: 800px; }
 
 .buzzfeed-svg { fill: #e32; width: 6rem; top: 1px; }
 

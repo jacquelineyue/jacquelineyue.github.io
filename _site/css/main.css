@@ -3346,10 +3346,13 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 @media (min-width: 52rem) { .md-text-intro { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; } }
 @media (min-width: 64rem) { .lg-text-intro { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; } }
 .link-royal { color: #4C70CA; border-bottom: 2px solid #FFF; padding-bottom: 0.2rem; font-weight: 700; }
-.link-royal:hover { border-bottom: 3px solid #4C70CA; }
+.link-royal:hover { border-bottom: 3px solid #4C70CA; transition: .15s ease 0s; }
 
-.icon-social { width: 2rem; height: 2rem; fill: #313035; }
-.icon-social:hover { fill: #738fd6; transition: .15s ease 0s; }
+.link-charocal { color: #313035; padding-bottom: 0.2rem; font-weight: 700; }
+.link-charocal:hover { color: #313035; border-bottom: 3px solid #FF7F50; transition: .15s ease 0s; }
+
+.icon-social { width: 2rem; height: 2rem; fill: #cac9ce; }
+.icon-social:hover { fill: #FF7F50; transition: .15s ease 0s; }
 
 .fill-chambray { background-color: #C8D6F9; }
 
@@ -3357,8 +3360,12 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 
 .fill-royal { background-color: #4C70CA; }
 
+.fill-coral { background-color: #FF7F50; }
+
 .text-chambray { color: #C8D6F9; }
 
 .text-charcoal { color: #313035; }
 
 .text-royal { color: #4C70CA; }
+
+.text-coral { color: #FF7F50; }

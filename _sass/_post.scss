@@ -7,15 +7,27 @@
   font-weight: 700;
   &:hover {
     border-bottom: 3px solid $royal;
+    transition: .15s ease 0s;
+  }
+}
+
+.link-charocal {
+  color: $charcoal;
+  padding-bottom: 0.2rem;
+  font-weight: 700;
+  &:hover {
+    color: $charcoal;
+    border-bottom: 3px solid $coral;
+    transition: .15s ease 0s;
   }
 }
 
 .icon-social {
   width: 2rem;
   height: 2rem;
-  fill: $charcoal;
+  fill: lighten($charcoal, 60%);
   &:hover {
-    fill: lighten($royal, 10%);
+    fill: $coral;
     transition: .15s ease 0s;
   }
 }
@@ -23,7 +35,10 @@
 .fill-chambray     { background-color:     $chambray; }
 .fill-charcoal     { background-color:     $charcoal; }
 .fill-royal        { background-color:     $royal; }
+.fill-coral        { background-color:     $coral; }
+
 
 .text-chambray     { color:     $chambray; }
 .text-charcoal     { color:     $charcoal; }
 .text-royal        { color:     $royal; }
+.text-coral        { color:     $coral; }

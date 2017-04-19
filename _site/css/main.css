@@ -3354,6 +3354,8 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 .icon-social { width: 2rem; height: 2rem; fill: #cac9ce; }
 .icon-social:hover { fill: #FF7F50; transition: .15s ease 0s; }
 
+.icon-victory { width: 2rem; height: 2rem; fill: #FF7F50; }
+
 .fill-chambray { background-color: #C8D6F9; }
 
 .fill-charcoal { background-color: #313035; }

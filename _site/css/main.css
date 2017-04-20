@@ -1667,6 +1667,8 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 .pagination--small .pagination__button { padding: 0.3125rem .625rem; font-size: 0.875rem; line-height: 1.25rem; }
 .pagination--small .pagination__text { font-size: 0.875rem; }
 
+body { font-weight: 1.5 !important; }
+
 .wrapper { max-width: 80rem; height: 800px; }
 
 .buzzfeed-svg { fill: #e32; width: 6rem; top: 1px; }
@@ -3340,13 +3342,20 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 .pagination--small .pagination__button { padding: 0.3125rem .625rem; font-size: 0.875rem; line-height: 1.25rem; }
 .pagination--small .pagination__text { font-size: 0.875rem; }
 
-.xs-text-intro { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; }
+.xs-text-serif { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; }
 
-@media (min-width: 40rem) { .sm-text-intro { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; } }
-@media (min-width: 52rem) { .md-text-intro { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; } }
-@media (min-width: 64rem) { .lg-text-intro { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; } }
-.link-royal { color: #4C70CA; border-bottom: 2px solid #FFF; padding-bottom: 0.2rem; font-weight: 700; }
-.link-royal:hover { border-bottom: 3px solid #4C70CA; transition: .15s ease 0s; }
+@media (min-width: 40rem) { .sm-text-serif { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; } }
+@media (min-width: 52rem) { .md-text-serif { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; } }
+@media (min-width: 64rem) { .lg-text-serif { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; } }
+.post h1, .post h2, .post h3, .post h4, .post h5, .post h6, .post p { font-weight: 300 !important; line-height: 1.7 !important; margin-bottom: 1.5rem; }
+.post img { margin-bottom: 0.5rem; }
+.post p { margin-bottom: 2rem; }
+@media (min-width: 64rem) { .post p { margin: 0 5rem 2rem 5rem; } }
+
+.number { display: inline-block; white-space: nowrap; vertical-align: middle; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; padding: 0.3rem 0.85rem; border-radius: 50px; background-color: #FF7F50; color: #fff; }
+
+.link-navy { color: #000067; border-bottom: 2px solid #FFF; padding-bottom: 0.2rem; font-weight: 700; }
+.link-navy:hover { color: #000067; border-bottom: 3px solid #FF7F50; transition: .15s ease 0s; }
 
 .link-charocal { color: #313035; padding-bottom: 0.2rem; font-weight: 700; }
 .link-charocal:hover { color: #313035; border-bottom: 3px solid #FF7F50; transition: .15s ease 0s; }
@@ -3362,6 +3371,8 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 
 .fill-royal { background-color: #4C70CA; }
 
+.fill-navy { background-color: #000067; }
+
 .fill-coral { background-color: #FF7F50; }
 
 .text-chambray { color: #C8D6F9; }
@@ -3369,5 +3380,7 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 .text-charcoal { color: #313035; }
 
 .text-royal { color: #4C70CA; }
+
+.text-navy { color: #000067; }
 
 .text-coral { color: #FF7F50; }

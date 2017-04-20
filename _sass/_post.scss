@@ -1,12 +1,48 @@
 // Style for post page
 
-.link-royal {
-  color: $royal;
+.post {
+
+    h1, h2, h3, h4, h5, h6, p{
+    font-weight: 300!important;
+    line-height: 1.7!important;
+    margin-bottom: $space-3;
+    }
+
+    img {
+    margin-bottom: $space-1;
+    }
+
+    p {
+    margin-bottom: $space-4;
+    @include solid-breakpoint("lg") {
+      margin: 0 5rem $space-4 5rem;
+      }
+    }
+}
+
+.number {
+  display: inline-block;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 0.3rem 0.85rem;
+  border-radius: 50px;
+  background-color: $coral;
+  color: $text-white;
+}
+
+
+.link-navy {
+  color: $navy;
   border-bottom: 2px solid #FFF;
   padding-bottom: 0.2rem;
   font-weight: 700;
   &:hover {
-    border-bottom: 3px solid $royal;
+    color: $navy;
+    border-bottom: 3px solid $coral;
     transition: .15s ease 0s;
   }
 }
@@ -21,30 +57,3 @@
     transition: .15s ease 0s;
   }
 }
-
-.icon-social {
-  width: 2rem;
-  height: 2rem;
-  fill: lighten($charcoal, 60%);
-  &:hover {
-    fill: $coral;
-    transition: .15s ease 0s;
-  }
-}
-
-.icon-victory {
-  width: 2rem;
-  height: 2rem;
-  fill: $coral;
-  }
-
-.fill-chambray     { background-color:     $chambray; }
-.fill-charcoal     { background-color:     $charcoal; }
-.fill-royal        { background-color:     $royal; }
-.fill-coral        { background-color:     $coral; }
-
-
-.text-chambray     { color:     $chambray; }
-.text-charcoal     { color:     $charcoal; }
-.text-royal        { color:     $royal; }
-.text-coral        { color:     $coral; }

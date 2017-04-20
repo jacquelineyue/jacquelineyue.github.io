@@ -1,0 +1,17 @@
+// Style for icons
+
+.icon-social {
+  width: 2rem;
+  height: 2rem;
+  fill: lighten($charcoal, 60%);
+  &:hover {
+    fill: $coral;
+    transition: .15s ease 0s;
+  }
+}
+
+.icon-victory {
+  width: 2rem;
+  height: 2rem;
+  fill: $coral;
+  }

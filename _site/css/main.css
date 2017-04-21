@@ -3342,11 +3342,11 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 .pagination--small .pagination__button { padding: 0.3125rem .625rem; font-size: 0.875rem; line-height: 1.25rem; }
 .pagination--small .pagination__text { font-size: 0.875rem; }
 
-.xs-text-serif { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; }
+.xs-text-serif { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; }
 
-@media (min-width: 40rem) { .sm-text-serif { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; } }
-@media (min-width: 52rem) { .md-text-serif { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; } }
-@media (min-width: 64rem) { .lg-text-serif { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; } }
+@media (min-width: 40rem) { .sm-text-serif { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; } }
+@media (min-width: 52rem) { .md-text-serif { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; } }
+@media (min-width: 64rem) { .lg-text-serif { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; } }
 .post h1, .post h2, .post h3, .post h4, .post h5, .post h6, .post p { font-weight: 300 !important; line-height: 1.7 !important; margin-bottom: 1.5rem; }
 .post img { margin-bottom: 0.5rem; }
 .post p { margin-bottom: 2rem; }

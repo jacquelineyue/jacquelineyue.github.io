@@ -3,3 +3,23 @@
 body {
   font-weight: 1.5!important;
 }
+.bg-wave {
+  background:
+     radial-gradient(
+       circle at 25% 106%,
+       transparent 19%,
+       rgba(207,227,255,0.5) 20%,
+       rgba(207,227,255,0.5) 23%,
+       transparent 24%,
+       transparent),
+     radial-gradient(
+       circle at 45% -4%,
+       transparent 19%,
+       rgba(207,227,255,0.5) 20%,
+       rgba(207,227,255,0.5) 23%,
+       transparent 24%,
+       transparent)
+     46px -3px;
+   background-color: #FFF;
+   background-size:14px 18px;
+}

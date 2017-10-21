@@ -1669,6 +1669,8 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 
 body { font-weight: 1.5 !important; }
 
+.bg-wave { background: radial-gradient(circle at 25% 106%, transparent 19%, rgba(207, 227, 255, 0.5) 20%, rgba(207, 227, 255, 0.5) 23%, transparent 24%, transparent), radial-gradient(circle at 45% -4%, transparent 19%, rgba(207, 227, 255, 0.5) 20%, rgba(207, 227, 255, 0.5) 23%, transparent 24%, transparent) 46px -3px; background-color: #FFF; background-size: 14px 18px; }
+
 .wrapper { max-width: 80rem; height: 800px; }
 
 .buzzfeed-svg { fill: #e32; width: 6rem; top: 1px; }
@@ -3352,18 +3354,18 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 .post p { margin-bottom: 2rem; }
 @media (min-width: 64rem) { .post p { margin: 0 5rem 2rem 5rem; } }
 
-.number { display: inline-block; white-space: nowrap; vertical-align: middle; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; padding: 0.3rem 0.85rem; border-radius: 50px; background-color: #FF7F50; color: #fff; }
+.number { display: inline-block; white-space: nowrap; vertical-align: middle; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; padding: 0.3rem 0.85rem; border-radius: 50px; background-color: #F76F6F; color: #fff; }
 
 .link-navy { color: #000067; border-bottom: 2px solid #FFF; padding-bottom: 0.2rem; font-weight: 700; }
-.link-navy:hover { color: #000067; border-bottom: 3px solid #FF7F50; transition: .15s ease 0s; }
+.link-navy:hover { color: #000067; border-bottom: 3px solid #F76F6F; transition: .15s ease 0s; }
 
 .link-charocal { color: #313035; padding-bottom: 0.2rem; font-weight: 700; }
-.link-charocal:hover { color: #313035; border-bottom: 3px solid #FF7F50; transition: .15s ease 0s; }
+.link-charocal:hover { color: #313035; border-bottom: 3px solid #F76F6F; transition: .15s ease 0s; }
 
 .icon-social { width: 2rem; height: 2rem; fill: #cac9ce; }
-.icon-social:hover { fill: #FF7F50; transition: .15s ease 0s; }
+.icon-social:hover { fill: #F76F6F; transition: .15s ease 0s; }
 
-.icon-victory { width: 2rem; height: 2rem; fill: #FF7F50; }
+.icon-victory { width: 2rem; height: 2rem; fill: #F76F6F; }
 
 .fill-chambray { background-color: #C8D6F9; }
 
@@ -3373,7 +3375,7 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 
 .fill-navy { background-color: #000067; }
 
-.fill-coral { background-color: #FF7F50; }
+.fill-coral { background-color: #F76F6F; }
 
 .text-chambray { color: #C8D6F9; }
 
@@ -3383,4 +3385,4 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 
 .text-navy { color: #000067; }
 
-.text-coral { color: #FF7F50; }
+.text-coral { color: #F76F6F; }

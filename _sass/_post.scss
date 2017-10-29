@@ -20,7 +20,7 @@
     }
 }
 
-.number {
+.label-number {
   display: inline-block;
   white-space: nowrap;
   vertical-align: middle;
@@ -28,12 +28,18 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  padding: 0.3rem 0.85rem;
+  padding: 0.1rem 0.6rem;
   border-radius: 50px;
   background-color: $coral;
-  color: $text-white;
+  font-weight: 500;
 }
 
+.text-title {
+  font-size: $text-headline;
+  font-weight: 800;
+  text-align: center;
+  color: $coral;
+}
 
 .link-navy {
   color: $navy;

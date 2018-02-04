@@ -3349,14 +3349,16 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 @media (min-width: 40rem) { .sm-text-serif { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; } }
 @media (min-width: 52rem) { .md-text-serif { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; } }
 @media (min-width: 64rem) { .lg-text-serif { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; } }
-.post h1, .post h2, .post h3, .post h4, .post h5, .post h6, .post p { font-weight: 300 !important; line-height: 1.7 !important; margin-bottom: 1.5rem; }
+.post h1, .post h2, .post h3, .post h4, .post h5, .post h6, .post p, .post ul, .post ol { font-weight: 300; margin-bottom: 1.5rem; }
 .post img { margin-bottom: 0.5rem; }
-.post p { margin-bottom: 2rem; }
-@media (min-width: 64rem) { .post p { margin: 0 5rem 2rem 5rem; } }
+.post p, .post ul, .post ol { margin-bottom: 2rem; }
+@media (min-width: 64rem) { .post p, .post ul, .post ol { margin: 0 5rem 2rem 5rem; } }
 
 .label-number { display: inline-block; white-space: nowrap; vertical-align: middle; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; padding: 0.1rem 0.6rem; border-radius: 50px; background-color: #F76F6F; font-weight: 500; }
 
-.text-title { font-size: 2.25rem; font-weight: 800; text-align: center; color: #F76F6F; }
+.text-headline { font-size: 2.25rem; line-height: 1.8 !important; color: #000067; }
+
+.text-project { color: #F76F6F; }
 
 .link-navy { color: #000067; border-bottom: 2px solid #FFF; padding-bottom: 0.2rem; font-weight: 700; }
 .link-navy:hover { color: #000067; border-bottom: 3px solid #F76F6F; transition: .15s ease 0s; }

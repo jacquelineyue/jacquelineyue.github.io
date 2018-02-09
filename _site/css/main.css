@@ -3358,18 +3358,21 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 
 .text-headline { font-size: 2.25rem; line-height: 1.8 !important; color: #000067; }
 
-.text-project { color: #F76F6F; }
+.text-project { color: #F76F6F; border-bottom: 2px solid #F76F6F; display: inline-block; padding-bottom: 0.5rem; }
 
 .link-navy { color: #000067; border-bottom: 2px solid #FFF; padding-bottom: 0.2rem; font-weight: 700; }
-.link-navy:hover { color: #000067; border-bottom: 3px solid #F76F6F; transition: .15s ease 0s; }
+.link-navy:hover { color: #000067; border-bottom: 2px solid #F76F6F; transition: .15s ease 0s; }
 
-.link-charocal { color: #313035; padding-bottom: 0.2rem; font-weight: 700; }
-.link-charocal:hover { color: #313035; border-bottom: 3px solid #F76F6F; transition: .15s ease 0s; }
+.link-royal { color: #4C70CA; border-bottom: 3px solid #F76F6F; padding-bottom: 0.2rem; font-weight: 700; }
+.link-royal:hover { color: #000067; border-bottom: 2px solid #4C70CA; transition: .15s ease 0s; }
 
-.icon-social { width: 2rem; height: 2rem; fill: #cac9ce; }
+.link-charocal { color: #313035; border-bottom: 2px solid #fecdcd; padding-bottom: 0.2rem; font-weight: 700; }
+.link-charocal:hover { color: #313035; border-bottom: 2px solid #F76F6F; transition: .15s ease 0s; }
+
+.icon-social { width: 2rem; height: 2rem; fill: #cac9ce; cursor: pointer; }
 .icon-social:hover { fill: #F76F6F; transition: .15s ease 0s; }
 
-.icon-victory { width: 2rem; height: 2rem; fill: #F76F6F; }
+.icon-victory { width: 2rem; height: 2rem; fill: #F76F6F; cursor: pointer; }
 
 .fill-chambray { background-color: #C8D6F9; }
 

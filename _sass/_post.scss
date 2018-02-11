@@ -21,6 +21,7 @@
 }
 
 .label-number {
+  font-family: $sans-serif;
   display: inline-block;
   white-space: nowrap;
   vertical-align: middle;
@@ -34,27 +35,54 @@
   font-weight: 500;
 }
 
-.text-headline {
+.text-xl {
   font-size: $text-headline;
+  font-weight: 400;
   line-height: 1.8!important;
   color: $navy;
 }
 
+.text-xxl {
+  font-size: $text-headline-super;
+  line-height: 1.8!important;
+  font-weight: 700;
+  color: $navy;
+}
+
 .text-project {
+  font-family: $sans-serif;
   color: $coral;
   border-bottom: 2px solid $coral;
   display: inline-block;
   padding-bottom: $space-1;
+  margin-bottom: $space-3;
+}
+
+.text-signature {
+  font-family: $sans-serif;
+  font-size: $text-2;
+  font-weight: 400;
+  color: $coral;
+  display: inline-block;
+}
+
+.text-project {
+  font-family: $sans-serif;
+  color: $coral;
+  border-bottom: 2px solid $coral;
+  display: inline-block;
+  padding-bottom: $space-1;
+  margin-bottom: $space-3;
 }
 
 .link-navy {
   color: $navy;
-  border-bottom: 2px solid #FFF;
+  border-bottom: 2px solid $coral;
   padding-bottom: 0.2rem;
   font-weight: 700;
   &:hover {
-    color: $navy;
-    border-bottom: 2px solid $coral;
+    color: $royal;
+    border-bottom: 2px solid $chambray;
     transition: .15s ease 0s;
   }
 }

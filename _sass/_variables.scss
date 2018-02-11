@@ -2,6 +2,7 @@
 $chambray: #C8D6F9;
 $royal: #4C70CA;
 $navy: #000067;
+$midnight: #030b23;
 
 // gray
 $charcoal: #313035;
@@ -10,6 +11,7 @@ $charcoal: #313035;
 $coral: #F76F6F;
 
 // Fonts: these are !important to override Solid's font-family: inherit property
-$slab-serif: "adelle", Georgia, serif !important;
-
-$text-headline: 2.25rem  // 36px
+$sans-serif: 'Heebo', Helvetica, sans-serif !important;
+//title
+$text-headline: 2.25rem;  // 36px
+$text-headline-super: 3rem;  // 48px

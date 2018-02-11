@@ -1,0 +1,52 @@
+// Style for display
+
+.background-clip-text-liquid-1 {
+  font-size: $text-headline;
+  background: url(http://media.giphy.com/media/633vhU9B4y4FO/giphy.gif) right center no-repeat;
+  background-size: cover;
+  /* BACKGROUND CLIP TO ALLOW GIF TO MASK THROUGH */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0px #FFF;
+
+  a:hover {
+    display: inline-block;
+    border-bottom: 4px solid $chambray;
+    transition: .15s ease 0s;
+    color: lighten($chambray, 60%);
+  }
+}
+
+.thumb-container {
+  position: relative;
+}
+
+.thumb {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.thumb-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.thumb-container:hover .thumb-overlay {
+  opacity: 1;
+}
+
+.thumb-text {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}

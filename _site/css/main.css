@@ -3345,23 +3345,33 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 .pagination--small .pagination__text { font-size: 0.875rem; }
 
 .xs-text-serif { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; }
+.xs-text-sans-serif { font-family: 'Heebo', Arial, serif !important; font-weight: 300 !important; line-height: 2.0 !important; }
 
-@media (min-width: 40rem) { .sm-text-serif { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; } }
-@media (min-width: 52rem) { .md-text-serif { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; } }
-@media (min-width: 64rem) { .lg-text-serif { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; } }
+@media (min-width: 40rem) { .sm-text-serif { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; }
+  .sm-text-sans-serif { font-family: 'Heebo', Arial, serif !important; font-weight: 300 !important; line-height: 2.0 !important; } }
+@media (min-width: 52rem) { .md-text-serif { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; }
+  .md-text-sans-serif { font-family: 'Heebo', Arial, serif !important; font-weight: 300 !important; line-height: 2.0 !important; } }
+@media (min-width: 64rem) { .lg-text-serif { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; }
+  .lg-text-sans-serif { font-family: 'Heebo', Arial, serif !important; font-weight: 300 !important; line-height: 2.0 !important; } }
 .post h1, .post h2, .post h3, .post h4, .post h5, .post h6, .post p, .post ul, .post ol { font-weight: 300; margin-bottom: 1.5rem; }
 .post img { margin-bottom: 0.5rem; }
 .post p, .post ul, .post ol { margin-bottom: 2rem; }
 @media (min-width: 64rem) { .post p, .post ul, .post ol { margin: 0 5rem 2rem 5rem; } }
 
-.label-number { display: inline-block; white-space: nowrap; vertical-align: middle; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; padding: 0.1rem 0.6rem; border-radius: 50px; background-color: #F76F6F; font-weight: 500; }
+.label-number { font-family: "Heebo", Helvetica, sans-serif !important; display: inline-block; white-space: nowrap; vertical-align: middle; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; padding: 0.1rem 0.6rem; border-radius: 50px; background-color: #F76F6F; font-weight: 500; }
 
-.text-headline { font-size: 2.25rem; line-height: 1.8 !important; color: #000067; }
+.text-xl { font-size: 2.25rem; font-weight: 400; line-height: 1.8 !important; color: #000067; }
 
-.text-project { color: #F76F6F; border-bottom: 2px solid #F76F6F; display: inline-block; padding-bottom: 0.5rem; }
+.text-xxl { font-size: 3rem; line-height: 1.8 !important; font-weight: 700; color: #000067; }
 
-.link-navy { color: #000067; border-bottom: 2px solid #FFF; padding-bottom: 0.2rem; font-weight: 700; }
-.link-navy:hover { color: #000067; border-bottom: 2px solid #F76F6F; transition: .15s ease 0s; }
+.text-project { font-family: "Heebo", Helvetica, sans-serif !important; color: #F76F6F; border-bottom: 2px solid #F76F6F; display: inline-block; padding-bottom: 0.5rem; margin-bottom: 1.5rem; }
+
+.text-signature { font-family: "Heebo", Helvetica, sans-serif !important; font-size: 1.375rem; font-weight: 400; color: #F76F6F; display: inline-block; }
+
+.text-project { font-family: "Heebo", Helvetica, sans-serif !important; color: #F76F6F; border-bottom: 2px solid #F76F6F; display: inline-block; padding-bottom: 0.5rem; margin-bottom: 1.5rem; }
+
+.link-navy { color: #000067; border-bottom: 2px solid #F76F6F; padding-bottom: 0.2rem; font-weight: 700; }
+.link-navy:hover { color: #4C70CA; border-bottom: 2px solid #C8D6F9; transition: .15s ease 0s; }
 
 .link-royal { color: #4C70CA; border-bottom: 3px solid #F76F6F; padding-bottom: 0.2rem; font-weight: 700; }
 .link-royal:hover { color: #000067; border-bottom: 2px solid #4C70CA; transition: .15s ease 0s; }
@@ -3374,6 +3384,21 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 
 .icon-victory { width: 2rem; height: 2rem; fill: #F76F6F; cursor: pointer; }
 
+.background-clip-text-liquid-1 { font-size: 2.25rem; background: url(http://media.giphy.com/media/633vhU9B4y4FO/giphy.gif) right center no-repeat; background-size: cover; /* BACKGROUND CLIP TO ALLOW GIF TO MASK THROUGH */ -webkit-background-clip: text; -webkit-text-fill-color: transparent; -webkit-text-stroke: 0px #FFF; }
+.background-clip-text-liquid-1 a:hover { display: inline-block; border-bottom: 4px solid #C8D6F9; transition: .15s ease 0s; color: white; }
+
+.thumb-container { position: relative; }
+
+.thumb { display: block; width: 100%; height: auto; }
+
+.thumb-overlay { position: absolute; top: 0; bottom: 0; left: 0; right: 0; height: 100%; width: 100%; opacity: 0; transition: .5s ease; background-color: rgba(0, 0, 0, 0.2); }
+
+.thumb-container:hover .thumb-overlay { opacity: 1; }
+
+.thumb-text { top: 50%; left: 50%; transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); }
+
+.fill-midnight { background-color: #030b23; }
+
 .fill-chambray { background-color: #C8D6F9; }
 
 .fill-charcoal { background-color: #313035; }
@@ -3383,6 +3408,8 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 .fill-navy { background-color: #000067; }
 
 .fill-coral { background-color: #F76F6F; }
+
+.text-midnight { color: #030b23; }
 
 .text-chambray { color: #C8D6F9; }
 

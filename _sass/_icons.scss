@@ -4,9 +4,17 @@
   width: 2rem;
   height: 2rem;
   fill: lighten($charcoal, 60%);
+  color: lighten($charcoal, 60%);
   cursor: pointer;
+
   &:hover {
     fill: $coral;
+    color: $coral;
+    transition: .15s ease 0s;
+  }
+  &:visited {
+    fill: lighten($charcoal, 60%);
+    color: lighten($charcoal, 60%);
     transition: .15s ease 0s;
   }
 }
@@ -16,4 +24,5 @@
   height: 2rem;
   fill: $coral;
   cursor: pointer;
+
 }

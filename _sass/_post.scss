@@ -69,7 +69,7 @@
 .text-project {
   font-family: $sans-serif;
   color: $coral;
-  border-bottom: 2px solid $coral;
+  border-bottom: 1px solid $coral;
   display: inline-block;
   padding-bottom: $space-1;
   margin-bottom: $space-3;
@@ -77,19 +77,19 @@
 
 .link-navy {
   color: $navy;
-  border-bottom: 2px solid $coral;
+  border-bottom: 1px solid $coral;
   padding-bottom: 0.2rem;
-  font-weight: 700;
+  font-weight: 600;
   &:hover {
-    color: $royal;
-    border-bottom: 2px solid $chambray;
+    color: $coral;
+    border-bottom: 1px solid $coral;
     transition: .15s ease 0s;
   }
 }
 
 .link-royal {
   color: $royal;
-  border-bottom: 3px solid $coral;
+  border-bottom: 1px solid $coral;
   padding-bottom: 0.2rem;
   font-weight: 700;
   &:hover {
@@ -101,7 +101,7 @@
 
 .link-charocal {
   color: $charcoal;
-  border-bottom: 2px solid #fecdcd;
+  border-bottom: 1px solid #fecdcd;
   padding-bottom: 0.2rem;
   font-weight: 700;
   &:hover {

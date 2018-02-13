@@ -36,14 +36,14 @@
 }
 
 .text-xl {
-  font-size: $text-headline;
+  font-size: $text-headline !important;
   font-weight: 400;
   line-height: 1.8!important;
   color: $navy;
 }
 
 .text-xxl {
-  font-size: $text-headline-super;
+  font-size: $text-headline-super !important;
   line-height: 1.8!important;
   font-weight: 700;
   color: $navy;

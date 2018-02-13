@@ -3346,13 +3346,21 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 
 .xs-text-serif { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; }
 .xs-text-sans-serif { font-family: 'Heebo', Arial, serif !important; font-weight: 300 !important; line-height: 2.0 !important; }
+.xs-text-xl { font-size: 2.25rem !important; font-weight: 400; line-height: 1.8 !important; }
+.xs-text-xxl { font-size: 3rem !important; line-height: 1.8 !important; font-weight: 700; }
 
 @media (min-width: 40rem) { .sm-text-serif { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; }
-  .sm-text-sans-serif { font-family: 'Heebo', Arial, serif !important; font-weight: 300 !important; line-height: 2.0 !important; } }
+  .sm-text-sans-serif { font-family: 'Heebo', Arial, serif !important; font-weight: 300 !important; line-height: 2.0 !important; }
+  .sm-text-xl { font-size: 2.25rem !important; font-weight: 400; line-height: 1.8 !important; }
+  .sm-text-xxl { font-size: 3rem !important; line-height: 1.8 !important; font-weight: 700; } }
 @media (min-width: 52rem) { .md-text-serif { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; }
-  .md-text-sans-serif { font-family: 'Heebo', Arial, serif !important; font-weight: 300 !important; line-height: 2.0 !important; } }
+  .md-text-sans-serif { font-family: 'Heebo', Arial, serif !important; font-weight: 300 !important; line-height: 2.0 !important; }
+  .md-text-xl { font-size: 2.25rem !important; font-weight: 400; line-height: 1.8 !important; }
+  .md-text-xxl { font-size: 3rem !important; line-height: 1.8 !important; font-weight: 700; } }
 @media (min-width: 64rem) { .lg-text-serif { font-family: 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; }
-  .lg-text-sans-serif { font-family: 'Heebo', Arial, serif !important; font-weight: 300 !important; line-height: 2.0 !important; } }
+  .lg-text-sans-serif { font-family: 'Heebo', Arial, serif !important; font-weight: 300 !important; line-height: 2.0 !important; }
+  .lg-text-xl { font-size: 2.25rem !important; font-weight: 400; line-height: 1.8 !important; }
+  .lg-text-xxl { font-size: 3rem !important; line-height: 1.8 !important; font-weight: 700; } }
 .post h1, .post h2, .post h3, .post h4, .post h5, .post h6, .post p, .post ul, .post ol { font-weight: 300; margin-bottom: 1.5rem; }
 .post img { margin-bottom: 0.5rem; }
 .post p, .post ul, .post ol { margin-bottom: 2rem; }
@@ -3360,9 +3368,9 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 
 .label-number { font-family: "Heebo", Helvetica, sans-serif !important; display: inline-block; white-space: nowrap; vertical-align: middle; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; padding: 0.1rem 0.6rem; border-radius: 50px; background-color: #F76F6F; font-weight: 500; }
 
-.text-xl { font-size: 2.25rem; font-weight: 400; line-height: 1.8 !important; color: #000067; }
+.text-xl { font-size: 2.25rem !important; font-weight: 400; line-height: 1.8 !important; color: #000067; }
 
-.text-xxl { font-size: 3rem; line-height: 1.8 !important; font-weight: 700; color: #000067; }
+.text-xxl { font-size: 3rem !important; line-height: 1.8 !important; font-weight: 700; color: #000067; }
 
 .text-project { font-family: "Heebo", Helvetica, sans-serif !important; color: #F76F6F; border-bottom: 2px solid #F76F6F; display: inline-block; padding-bottom: 0.5rem; margin-bottom: 1.5rem; }
 
@@ -3379,7 +3387,7 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 .link-charocal { color: #313035; border-bottom: 1px solid #fecdcd; padding-bottom: 0.2rem; font-weight: 700; }
 .link-charocal:hover { color: #313035; border-bottom: 2px solid #F76F6F; transition: .15s ease 0s; }
 
-.icon-social { width: 2rem; height: 2rem; fill: #cac9ce; color: #cac9ce; cursor: pointer; }
+.icon-social { fill: #cac9ce; color: #cac9ce; cursor: pointer; }
 .icon-social:hover { fill: #F76F6F; color: #F76F6F; transition: .15s ease 0s; }
 .icon-social:visited { fill: #cac9ce; color: #cac9ce; transition: .15s ease 0s; }
 

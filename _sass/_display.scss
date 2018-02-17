@@ -1,5 +1,6 @@
-// Style for display
+// Style for playground
 
+//GIPHY CLIP TEXT
 .background-clip-text-liquid-1 {
   font-size: $text-headline;
   background: url(http://media.giphy.com/media/633vhU9B4y4FO/giphy.gif) right center no-repeat;
@@ -13,7 +14,7 @@
     display: inline-block;
     border-bottom: 4px solid $chambray;
     transition: .15s ease 0s;
-    color: lighten($chambray, 60%);
+    color: #FFF;
   }
 }
 

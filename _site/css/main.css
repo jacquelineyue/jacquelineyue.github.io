@@ -3372,11 +3372,9 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 
 .text-xxl { font-size: 3rem !important; line-height: 1.8 !important; font-weight: 700; color: #000067; }
 
-.text-project { font-family: "Heebo", Helvetica, sans-serif !important; color: #F76F6F; border-bottom: 2px solid #F76F6F; display: inline-block; padding-bottom: 0.5rem; margin-bottom: 1.5rem; }
-
 .text-signature { font-family: "Heebo", Helvetica, sans-serif !important; font-size: 1.375rem; font-weight: 400; color: #F76F6F; display: inline-block; }
 
-.text-project { font-family: "Heebo", Helvetica, sans-serif !important; color: #F76F6F; border-bottom: 1px solid #F76F6F; display: inline-block; padding-bottom: 0.5rem; margin-bottom: 1.5rem; }
+.text-project { font-family: "Heebo", Helvetica, sans-serif !important; color: #F76F6F; border-bottom: 2px solid #fecdcd; display: inline-block; padding-bottom: 0.5rem; margin-bottom: 1.5rem; }
 
 .link-navy { color: #000067; border-bottom: 1px solid #F76F6F; padding-bottom: 0.2rem; font-weight: 600; }
 .link-navy:hover { color: #F76F6F; border-bottom: 1px solid #F76F6F; transition: .15s ease 0s; }
@@ -3384,8 +3382,8 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 .link-royal { color: #4C70CA; border-bottom: 1px solid #F76F6F; padding-bottom: 0.2rem; font-weight: 700; }
 .link-royal:hover { color: #000067; border-bottom: 2px solid #4C70CA; transition: .15s ease 0s; }
 
-.link-charocal { color: #313035; border-bottom: 1px solid #fecdcd; padding-bottom: 0.2rem; font-weight: 700; }
-.link-charocal:hover { color: #313035; border-bottom: 2px solid #F76F6F; transition: .15s ease 0s; }
+.link-charcoal { color: #999999; border-bottom: 2px solid #fecdcd; padding-bottom: 0.2rem; font-weight: 700; }
+.link-charcoal:hover { color: #F76F6F; border-bottom: 2px solid #F76F6F; transition: .15s ease 0s; }
 
 .icon-social { fill: #cac9ce; color: #cac9ce; cursor: pointer; }
 .icon-social:hover { fill: #F76F6F; color: #F76F6F; transition: .15s ease 0s; }
@@ -3394,7 +3392,7 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 .icon-victory { width: 2rem; height: 2rem; fill: #F76F6F; cursor: pointer; }
 
 .background-clip-text-liquid-1 { font-size: 2.25rem; background: url(http://media.giphy.com/media/633vhU9B4y4FO/giphy.gif) right center no-repeat; background-size: cover; /* BACKGROUND CLIP TO ALLOW GIF TO MASK THROUGH */ -webkit-background-clip: text; -webkit-text-fill-color: transparent; -webkit-text-stroke: 0px #FFF; }
-.background-clip-text-liquid-1 a:hover { display: inline-block; border-bottom: 4px solid #C8D6F9; transition: .15s ease 0s; color: white; }
+.background-clip-text-liquid-1 a:hover { display: inline-block; border-bottom: 4px solid #C8D6F9; transition: .15s ease 0s; color: #FFF; }
 
 .thumb-container { position: relative; cursor: pointer; }
 

@@ -70,12 +70,12 @@
 
 .link-navy {
   color: $navy;
-  border-bottom: 1px solid $coral;
+  border-bottom: 2px solid #fecdcd;
   padding-bottom: 0.2rem;
   font-weight: 600;
   &:hover {
     color: $coral;
-    border-bottom: 1px solid $coral;
+    border-bottom: 2px solid $coral;
     transition: .15s ease 0s;
   }
 }
@@ -103,6 +103,20 @@
     transition: .15s ease 0s;
   }
 }
+
+.link-project {
+  color: $navy;
+  padding-bottom: $space-4;
+  border-bottom: 2px solid lighten($coral, 60%);
+  padding-bottom: 0.2rem;
+  font-weight: 700;
+  &:hover {
+    color: $royal;
+    transition: .15s ease 0s;
+  }
+}
+
+
 // icon text on hover
 // a span .link-icon {
 //   color: $charcoal;

@@ -62,9 +62,9 @@
 .text-project {
   font-family: $sans-serif;
   color: $coral;
-  border-bottom: 2px solid #fecdcd;
+  border: 2px solid #fecdcd;
+  padding: $space-1 $space-2;
   display: inline-block;
-  padding-bottom: $space-1;
   margin-bottom: $space-3;
 }
 

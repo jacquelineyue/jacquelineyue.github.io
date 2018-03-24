@@ -3418,7 +3418,9 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 
 .fill-chambray { background-color: #C8D6F9; }
 
-.fill-chambray-light { background-color: #e9eef7; }
+.fill-chambray-lt { background-color: #e9eef7; }
+
+.fill-oat { background-color: #f2f0ec; }
 
 .fill-charcoal { background-color: #313035; }
 

@@ -2,36 +2,47 @@
 
 .icon-social {
   fill: lighten($charcoal, 60%);
+  stroke: lighten($charcoal, 60%);
   color: lighten($charcoal, 60%);
   cursor: pointer;
 
   &:hover {
     fill: $coral;
+    stroke: $coral;
     color: $coral;
     transition: .15s ease 0s;
   }
   &:visited {
     fill: lighten($charcoal, 60%);
+    stroke: lighten($charcoal, 60%);
+    color: lighten($charcoal, 60%);
+    transition: .15s ease 0s;
+  }
+}
+
+.link-icon {
+  fill: lighten($charcoal, 60%);
+  stroke: lighten($charcoal, 60%);
+  color: lighten($charcoal, 60%);
+  cursor: pointer;
+
+  &:hover {
+    fill: $coral;
+    stroke: $coral;
+    color: $coral;
+    transition: .15s ease 0s;
+  }
+  &:visited {
+    fill: lighten($charcoal, 60%);
+    stroke: lighten($charcoal, 60%);
     color: lighten($charcoal, 60%);
     transition: .15s ease 0s;
   }
 }
 
 .icon-victory {
-  width: 2rem;
-  height: 2rem;
-  fill: $coral;
-  cursor: pointer;
-}
-
-.link-icon {
-  fill: lighten($charcoal, 60%);
-  color: lighten($charcoal, 60%);
-  cursor: pointer;
-
-  &:hover {
-      color: $coral;
-      fill: $coral;
-      transition: .15s ease 0s;
-    }
-}
+    width: 2rem;
+    height: 2rem;
+    fill: #F76F6F;
+    cursor: pointer
+  }

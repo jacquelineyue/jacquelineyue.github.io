@@ -21,23 +21,10 @@
 }
 
 .link-icon {
-  fill: lighten($charcoal, 60%);
-  stroke: lighten($charcoal, 60%);
-  color: lighten($charcoal, 60%);
+  fill: lighten($charcoal, 50%);
+  stroke: lighten($charcoal, 50%);
+  color: lighten($charcoal, 50%);
   cursor: pointer;
-
-  &:hover {
-    fill: $coral;
-    stroke: $coral;
-    color: $coral;
-    transition: .15s ease 0s;
-  }
-  &:visited {
-    fill: lighten($charcoal, 60%);
-    stroke: lighten($charcoal, 60%);
-    color: lighten($charcoal, 60%);
-    transition: .15s ease 0s;
-  }
 }
 
 .icon-victory {

@@ -3393,9 +3393,7 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 .icon-social:hover { fill: #F76F6F; stroke: #F76F6F; color: #F76F6F; transition: .15s ease 0s; }
 .icon-social:visited { fill: #cac9ce; stroke: #cac9ce; color: #cac9ce; transition: .15s ease 0s; }
 
-.link-icon { fill: #cac9ce; stroke: #cac9ce; color: #cac9ce; cursor: pointer; }
-.link-icon:hover { fill: #F76F6F; stroke: #F76F6F; color: #F76F6F; transition: .15s ease 0s; }
-.link-icon:visited { fill: #cac9ce; stroke: #cac9ce; color: #cac9ce; transition: .15s ease 0s; }
+.link-icon { fill: #b0aeb6; stroke: #b0aeb6; color: #b0aeb6; cursor: pointer; }
 
 .icon-victory { width: 2rem; height: 2rem; fill: #F76F6F; cursor: pointer; }
 

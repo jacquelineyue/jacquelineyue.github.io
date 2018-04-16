@@ -3393,11 +3393,11 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 .link-royal:hover { color: #000067; border-bottom: 2px solid #4C70CA; transition: .15s ease 0s; }
 
 .link-charcoal { color: #313035; border-bottom: 1px solid #313035; padding-bottom: 0.05rem; cursor: pointer; }
-.link-charcoal:hover { color: #4C70CA; border-bottom: 1px solid #C8D6F9; transition: .15s ease 0s; }
+.link-charcoal:hover { color: #313035; transition: .15s ease 0s; background: #FFF; border-bottom: 1px solid #FFF; }
 
 .sup { vertical-align: super; font-size: 0.75rem; }
 
-.icon-social { fill: #cac9ce; stroke: #cac9ce; color: #cac9ce; cursor: pointer; }
+.icon-social { fill: #b0aeb6; stroke: #b0aeb6; color: #b0aeb6; cursor: pointer; }
 .icon-social:hover { fill: #F76F6F; stroke: #F76F6F; color: #F76F6F; transition: .15s ease 0s; }
 .icon-social:visited { fill: #cac9ce; stroke: #cac9ce; color: #cac9ce; transition: .15s ease 0s; }
 

@@ -116,9 +116,10 @@
   padding-bottom: 0.05rem;
   cursor: pointer;
   &:hover {
-    color: $royal;
-    border-bottom: 1px solid $chambray;
+    color: $charcoal;
     transition: .15s ease 0s;
+    background: #FFF;
+    border-bottom: 1px solid #FFF;
   }
 }
 

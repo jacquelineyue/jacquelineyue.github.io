@@ -78,7 +78,7 @@
   font-size: $text-5;
   color: $charcoal;
   border-bottom: 1px solid black;
-  padding-top: $space-5;
+  padding-top: $space-3;
   margin-bottom: $space-3;
 
   display: inline-block;
@@ -126,4 +126,12 @@
 .sup {
     vertical-align: super;
     font-size: $text-6;
+}
+
+.vertical-align-bottom {
+  vertical-align: bottom !important;
+}
+
+.border-xl {
+  border-width: thick !important;
 }

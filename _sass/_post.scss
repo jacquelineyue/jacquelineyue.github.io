@@ -18,6 +18,7 @@
       margin: 0 5rem $space-4 5rem;
       }
     }
+
 }
 
 .label-number {
@@ -80,7 +81,6 @@
   border-bottom: 1px solid black;
   padding-top: $space-3;
   margin-bottom: $space-3;
-
   display: inline-block;
 }
 
@@ -113,13 +113,13 @@
 .link-charcoal {
   color: $charcoal;
   border-bottom: 1px solid $charcoal;
-  padding-bottom: 0.05rem;
+  padding-bottom: 0.03rem;
   cursor: pointer;
   &:hover {
     color: $charcoal;
     transition: .15s ease 0s;
     background: #FFF;
-    border-bottom: 1px solid #FFF;
+    border-bottom: 2px solid $coral;
   }
 }
 

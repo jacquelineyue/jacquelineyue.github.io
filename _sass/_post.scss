@@ -34,6 +34,7 @@
   padding: 0 $space-2;
   border-bottom: 1px solid #000;
   margin-right: $space-1;
+  display: inline-block;
 }
 
 .label-number-circle {
@@ -120,6 +121,15 @@
     transition: .15s ease 0s;
     background: #FFF;
     border-bottom: 2px solid $coral;
+  }
+}
+
+.link-project {
+  color: $charcoal;
+  cursor: pointer;
+  &:hover {
+    color: $charcoal-lt;
+    transition: .15s ease 0s;
   }
 }
 

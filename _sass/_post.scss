@@ -1,7 +1,6 @@
 // Style for post page
 
 .post {
-
     h1, h2, h3, h4, h5, h6, p, ul, ol{
     font-weight: 300;
     // line-height: 1.6;
@@ -22,114 +21,113 @@
 }
 
 .label-number {
-  font-family: $sans-serif;
-  font-size: $text-5;
-  display: inline-block;
-  white-space: nowrap;
-  vertical-align: text-bottom;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  padding: 0 $space-2;
-  border-bottom: 1px solid #000;
-  margin-right: $space-1;
-  display: inline-block;
+    font-family: $sans-serif;
+    font-size: $text-5;
+    white-space: nowrap;
+    vertical-align: text-bottom;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0 $space-2;
+    border-bottom: 1px solid #000;
+    margin-right: $space-1;
+    display: inline-block;
 }
 
 .label-number-circle {
-  font-family: $sans-serif;
-  color: $text-white;
-  display: inline-block;
-  white-space: nowrap;
-  vertical-align: text-bottom;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  padding: 0.27rem 0.6rem;
-  border-radius: 50%;
-  background-color: $coral;
-  font-weight: 700;
-  margin-right: $space-1;
+    font-family: $sans-serif;
+    color: $text-white;
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: text-bottom;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0.08rem 0.75rem;
+    border-radius: 50%;
+    background-color: $coral;
+    font-weight: 700;
+    margin-right: $space-1;
 }
 
 .text-xl {
-  font-size: $text-headline !important;
-  font-weight: 400;
-  line-height: 1.8!important;
+    font-size: $text-headline !important;
+    font-weight: 400;
+    line-height: 1.8!important;
 }
 
 .text-xxl {
-  font-size: $text-headline-super !important;
-  line-height: 1.8!important;
-  font-weight: 700;
+    font-size: $text-headline-super !important;
+    line-height: 1.8!important;
+    font-weight: 700;
 }
 
 .text-signature {
-  font-family: $sans-serif;
-  font-size: $text-2;
-  font-weight: 400;
-  color: $coral;
-  display: inline-block;
+    font-family: $sans-serif;
+    font-size: $text-2;
+    font-weight: 400;
+    color: $coral;
+    display: inline-block;
 
 }
 
 .text-project {
-  font-family: $sans-serif;
-  font-size: $text-5;
-  color: $charcoal;
-  border-bottom: 1px solid black;
-  padding-top: $space-3;
-  margin-bottom: $space-3;
-  display: inline-block;
+    font-family: $sans-serif;
+    font-size: $text-5;
+    color: $charcoal;
+    border-bottom: 1px solid black;
+    padding-top: $space-3;
+    margin-bottom: $space-3;
+    display: inline-block;
 }
 
 .link-navy {
-  color: $navy;
-  border-bottom: 2px solid #fecdcd;
-  padding-bottom: 0.2rem;
-  font-weight: 600;
-  cursor: pointer;
-  &:hover {
-    color: $coral;
-    border-bottom: 2px solid $coral;
-    transition: .15s ease 0s;
+    color: $navy;
+    border-bottom: 2px solid #fecdcd;
+    padding-bottom: 0.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    &:hover {
+      color: $coral;
+      border-bottom: 2px solid $coral;
+      transition: .25s ease 0s;
   }
 }
 
 .link-royal {
-  color: $royal;
-  border-bottom: 1px solid $coral;
-  padding-bottom: 0.2rem;
-  font-weight: 700;
-  cursor: pointer;
-  &:hover {
-    color: $navy;
-    border-bottom: 2px solid $royal;
-    transition: .15s ease 0s;
+    color: $royal;
+    border-bottom: 1px solid $coral;
+    padding-bottom: 0.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    &:hover {
+      color: $navy;
+      border-bottom: 2px solid $royal;
+      transition: .25s ease 0s;
   }
 }
 
 .link-charcoal {
-  color: $charcoal;
-  border-bottom: 1px solid $charcoal;
-  padding-bottom: 0.03rem;
-  cursor: pointer;
-  &:hover {
     color: $charcoal;
-    transition: .15s ease 0s;
-    background: #FFF;
-    border-bottom: 2px solid $coral;
+    border-bottom: 1px solid $charcoal;
+    padding-bottom: 0.03rem;
+    cursor: pointer;
+    &:hover {
+      color: $charcoal;
+      transition: .25s ease 0s;
+      background: #FFF;
+      border-bottom: 3px solid $charcoal;
   }
 }
 
 .link-project {
-  color: $charcoal;
-  cursor: pointer;
-  &:hover {
-    color: $charcoal-lt;
-    transition: .15s ease 0s;
+    color: $charcoal;
+    cursor: pointer;
+    &:hover {
+      color: $charcoal-md;
+      transition: .25s ease 0s;
   }
 }
 
@@ -138,10 +136,14 @@
     font-size: $text-6;
 }
 
+.thin {
+    font-weight: 300 !important;
+}
+
 .vertical-align-bottom {
-  vertical-align: bottom !important;
+    vertical-align: bottom !important;
 }
 
 .border-xl {
-  border-width: thick !important;
+    border-width: thick !important;
 }

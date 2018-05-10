@@ -3376,7 +3376,7 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 
 .label-number { font-family: "Heebo", Helvetica, sans-serif !important; font-size: 0.875rem; white-space: nowrap; vertical-align: text-bottom; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; padding: 0 1rem; border-bottom: 1px solid #000; margin-right: 0.5rem; display: inline-block; }
 
-.label-number-circle { font-family: "Heebo", Helvetica, sans-serif !important; color: #fff; display: inline-block; white-space: nowrap; vertical-align: text-bottom; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; padding: 0.08rem 0.75rem; border-radius: 50%; background-color: #313035; font-weight: 700; margin-right: 0.5rem; }
+.label-number-circle { font-family: "Heebo", Helvetica, sans-serif !important; color: #fff; display: inline-block; white-space: nowrap; vertical-align: text-bottom; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; padding: 0rem 0.75rem; border-radius: 50%; background-color: #313035; font-weight: 700; margin-right: 0.5rem; }
 
 .text-xl { font-size: 2.25rem !important; font-weight: 400; line-height: 1.8 !important; }
 
@@ -3426,8 +3426,6 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 .thumb-container:hover .thumb-overlay { opacity: 1; }
 
 .thumb-text { top: 50%; left: 50%; transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); }
-
-.border { position: relative; cursor: pointer; }
 
 .fill-midnight { background-color: #030b23; }
 

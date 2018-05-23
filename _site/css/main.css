@@ -3384,7 +3384,7 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 
 .text-signature { font-family: "Heebo", Helvetica, sans-serif !important; font-size: 1.375rem; font-weight: 400; color: #F76F6F; display: inline-block; }
 
-.text-project { font-family: "Heebo", Helvetica, sans-serif !important; font-size: 0.875rem; color: #313035; border-bottom: 1px solid black; padding-top: 1.5rem; margin-bottom: 1.5rem; display: inline-block; }
+.text-project { font-family: "Heebo", Helvetica, sans-serif !important; font-size: 0.875rem; color: #313035; border-bottom: 1px solid black; padding-top: 1.5rem; display: inline-block; }
 
 .link-navy { color: #000067; border-bottom: 2px solid #fecdcd; padding-bottom: 0.2rem; font-weight: 600; cursor: pointer; }
 .link-navy:hover { color: #F76F6F; border-bottom: 2px solid #F76F6F; transition: .25s ease 0s; }

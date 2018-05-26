@@ -6,6 +6,7 @@
   color: lighten($charcoal, 50%);
   cursor: pointer;
 
+
   &:hover {
     fill: $coral;
     stroke: $coral;
@@ -21,9 +22,9 @@
 }
 
 .link-icon {
-  fill: lighten($charcoal, 50%);
-  stroke: lighten($charcoal, 50%);
-  color: lighten($charcoal, 50%);
+  fill: lighten($charcoal, 5%);
+  stroke: lighten($charcoal, 5%);
+  color: lighten($charcoal, 5%);
   cursor: pointer;
 }
 

@@ -53,8 +53,10 @@
   -ms-transform: translate(-50%, -50%);
 }
 
-.border-black { border: 1px solid rgba(0, 0, 0, 1) !important; }
-.border-black-top { border-top: 1px solid rgba(0, 0, 0, 1) !important; }
-.border-black-right { border-right: 1px solid rgba(0, 0, 0, 1) !important; }
-.border-black-bottom { border-bottom: 1px solid rgba(0, 0, 0, 1) !important; }
-.border-black-left { border-left: 1px solid rgba(0, 0, 0, 1) !important; }
+.bar {
+  position: absolute;
+  content: "";
+  height: 3px;
+  transform: translate(20px, 0px);
+  top: 50%;
+}

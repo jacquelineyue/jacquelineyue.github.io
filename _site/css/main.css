@@ -3449,15 +3449,7 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 
 .thumb-text { top: 50%; left: 50%; transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); }
 
-.border-black { border: 1px solid black !important; }
-
-.border-black-top { border-top: 1px solid black !important; }
-
-.border-black-right { border-right: 1px solid black !important; }
-
-.border-black-bottom { border-bottom: 1px solid black !important; }
-
-.border-black-left { border-left: 1px solid black !important; }
+.bar { position: absolute; content: ""; height: 3px; transform: translate(20px, 0px); top: 50%; }
 
 .fill-midnight { background-color: #030b23; }
 

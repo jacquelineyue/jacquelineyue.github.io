@@ -58,11 +58,11 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    padding: 0rem 0.75rem;
+    padding: 0rem 0.6rem;
     border-radius: 50%;
     background-color: $charcoal;
-    font-weight: 700;
     margin-right: $space-1;
+    font-size: $text-5;
 }
 
 .text-xl {
@@ -75,14 +75,6 @@
     font-size: $text-headline-super !important;
     line-height: 1.8!important;
     font-weight: 700;
-}
-
-.text-signature {
-    font-family: $sans-serif;
-    font-size: $text-2;
-    font-weight: 400;
-    color: $coral;
-    display: inline-block;
 }
 
 .text-project {
@@ -107,19 +99,6 @@
   }
 }
 
-.link-royal {
-    color: $royal;
-    border-bottom: 1px solid $coral;
-    padding-bottom: 0.2rem;
-    font-weight: 700;
-    cursor: pointer;
-    &:hover {
-      color: $navy;
-      border-bottom: 2px solid $royal;
-      transition: .25s ease 0s;
-  }
-}
-
 .link-charcoal {
     color: $charcoal;
     border-bottom: 1px solid $charcoal;
@@ -127,13 +106,25 @@
     cursor: pointer;
     &:hover {
       color: $charcoal;
+      font-weight: 400;
       transition: .25s ease 0s;
       background: #FFF;
-      border-bottom: 3px solid $charcoal;
+      border-bottom: 1px solid white;
   }
 }
 
 .link-project {
+    color: $charcoal !important;
+    border-bottom: 1px solid $charcoal;
+    cursor: pointer;
+    &:hover {
+      color: $charcoal-md !important;
+      border-bottom: 1px solid $charcoal-lt !important;
+      transition: .25s ease 0s;
+  }
+}
+
+.link-project-footer {
     color: $charcoal !important;
     cursor: pointer;
     &:hover {

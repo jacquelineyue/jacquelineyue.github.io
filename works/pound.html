@@ -8,101 +8,124 @@ title: Pound  |  Jacqueline Yue
 
     <!--title -->
     <div class="xs-text-center">
-      <p class="text-project">Pound Visualization & Dashboard</p>
-      <p class="xs-text-display xs-text-1 sm-text-xl md-text-xxl md-p3 xs-p0">
-        Visualize how content spread on the web
-      </p>
+        <p class="text-project">Pound Visualization & Dashboard</p>
+        <p class="xs-text-display xs-text-1 sm-text-xl md-text-xxl md-p3 xs-p0">
+            Visualize how content spread across the social web
+        </p>
     </div>
 
     <!-- 1-up pictures -->
     <div class="clearfix xs-pb6">
-      <p>
-        Powered by <a class="link-charcoal" href="http://bzfd.it/2smIcq6"> BuzzFeed’s proprietary tracking technology,</a>
-        Pound dashboard helps our clients and advertisers to gain insights about the virality of
-        their sponsored content across the social web. The visualization maps a network of how one
-        person shares content to another on social networks like Facebook & Twitter, as well
-        as one-to-one sharing platforms like email & text.
-      </p>
-      <p>
-        For each piece of content, the sharing pattern can inform the Reach of the content
-        (size of the circle), and the engagement the content resonates within the audience group
-        (darkness of the circle).
-      </p>
-      <div class="xs-text-center">
-        <img class="xs-mx-auto xs-border-lighter" src="../images/pound-clutters.gif" />
-        <!-- <video class="xs-mx-auto  xs-border-lighter" width="640" height="360" autoplay loops>
-          <source src="../images/pound-clutters.mp4" type="video/mp4"/>
-        </video> -->
-      </div>
+        <p class="bold xs-mb1">Situation </p>
+        <p>
+          BuzzFeed developed a proprietary tracking <a class="link-charcoal" href="http://bzfd.it/2smIcq6"> technology </a>
+          called POUND (Process for Optimizing and Understanding Network Diffusion) that measures and traces how
+          content was shared and spread across the social web. The knowledge held in this data could help us to
+          understand our content, our audiences as well as provide insights on what makes a story go viral.
+        </p>
+        <p class="bold xs-mb1">Solution </p>
+        <p>
+          Create an exploratory dashboard that visualizes and measures the magnitude of a piece of content travels around
+          the social web. This helps users to understand our audience's consumption and sharing behavior, and guide our editorial
+          team and advertising partners to make better, more engaging story to connect people.
+        </p>
+        <p class="xs-pt2 xs-text-center">
+          <img class="xs-mx-auto xs-border-lighter" src="../images/pound-clutters.gif" />
+        </p>
+        <p>
+          POUND was first made available to a few advertisers in an iterative partnership. As the sole design lead,
+          I worked closely with five engineers, two data scientists, two product managers and one project manager to
+          create the visualization and dashboard for our advertisers to explore data around their paid contents.
+        </p>
     </div>
 
     <!-- Exploration -->
-    <div class="clearfix xs-pb6">
-      <p class="xs-text-1 xs-text-display xs-text-center">Explore</p>
-      <p>
-        Look through existing examples, I started by exploring ways to visualize the sharing network
-        and drilling-down interaction. Collaborating with a super rad engineer to build a prototype
-        with sample data, we quickly identify which visualization is the easiest to understand, and
-        most feasible for rendering a dynamic dataset.
-      </p>
-      <div class="xs-text-center"><img class="xs-mx-auto" src="../images/pound-viz-explore.png" /></div>
-      <div class="xs-text-center"><img class="xs-mx-auto" src="../images/pound-size-depth.png" /></div>
-    </div>
+    <div class="clearfix xs-py6">
+        <p class="xs-text-1 xs-text-display xs-text-center">Explore the Visualization</p>
+        <p>
+            Visualization is the core piece of the dashboard. I started the design by researching the existing D3 models
+            that show a network of nodes and sub-nodes. I collaborated with an engineer to build out several prototypes
+            with sample data and quickly identified the packed circle graph is the most intuitive to people, and most
+            feasible for rendering a large, dynamic dataset.
+            <img class="xs-text-center xs-mx-auto" src="../images/pound-viz-explore.png" />
+        </p>
+        <p class="bold xs-mt6 xs-mb1">Color of the circle</p>
+        <p>
+            The sharing pattern of a piece of content is represented in a cluster of circles. Each circle represents
+            a promotion source that ignites the sharing downstream. A promotion source could be a BuzzFeed promotion
+            (red), Facebook promotion (dark blue), Tweet (light blue), or newsletter link (gray).
+        </p>
+        <p><img class="xs-mx2 xs-text-center" src="../images/pound-darkness.png" /></p>
+        <p class="bold xs-mt6 xs-mb1">Size and brightness/darkness</p>
+        <p>
+            The size of the circle represents the number of shares that particular promotion has produced in totals.
+            The shade of the circle represents the number of re-shares downstream.
+        </p>
+        <p><img class="xs-mx2 xs-text-center" src="../images/pound-size-depth.png" /></p>
+        <p class="xs-mt6">
+            Together, they show the reach and engagement depth of the content. The bigger the circle,
+            the higher the reach; the darker the circle, the deeper the engagement.
+        </p>
+        <p><img class="xs-text-center xs-mx-auto" src="../images/pound-cluster-variant.png" /></p>
+    <div>
+
 
     <!-- Tree types -->
-    <div class="clearfix xs-pb6">
-      <p class="xs-text-1 xs-text-display xs-text-center">Refine the visualization</p>
-      <div class="clearfix gutters">
-          <div class="xs-inline-block xs-text-center col xs-col-12 sm-col-12 md-col-6 lg-col-6" >
-            <img src="../images/pound-traversing-1-sq.gif" />
-          </div>
-          <div class="xs-inline-block xs-text-center col xs-col-12 sm-col-12 md-col-6 lg-col-6" >
-            <img style="width:349px;height:349px;" src="../images/pound-node-data-viz-sq.gif" />
-          </div>
-      </div>
-      <h4 class="xs-text-center">Early Prototype &#x27F6; Final version</h4>
+    <div class="clearfix xs-my6 xs-text-center">
+        <p class="xs-text-1 xs-text-display">Refine the Interaction</p>
+        <p>Prototype &#x27F6; Final version</p>
+        <div class="clearfix gutters">
+              <div class="xs-inline-block xs-text-center col xs-col-12 sm-col-12 md-col-6 lg-col-6" >
+                  <img src="../images/pound-traversing-1-sq.gif" />
+                </div>
+              <div class="xs-inline-block xs-text-center col xs-col-12 sm-col-12 md-col-6 lg-col-6" >
+                  <img style="width:100%; height:100%;" src="../images/pound-node-data-viz-sq.gif" />
+              </div>
+        </div>
     </div>
+
 
     <!-- Dashboard -->
-    <div class="clearfix xs-pb6">
-      <p class="xs-text-1 xs-text-display xs-text-center">Dashboard</p>
-      <p>To operationalized this data for boarder usage for business team, we build out a dashboard
-      where advertiser can visualize the reach and engagement of their contents on the web. </p>
-      <div class="xs-text-center"><img class="xs-mx-auto" src="../images/pound-ui-explore.png" /></div>
-      <div class="xs-text-center xs-border-lighter"><img class="xs-mx-auto" src="../images/pound-ui-3.png" /></div>
+    <div class="clearfix xs-my6">
+        <p class="xs-text-1 xs-text-display xs-text-center">The Dashboard</p>
+        <p>The dashboard enables our advertisers to drill down to each promotion source and see the key metrics
+          (Propagation, Penetration, and Sharability) that attributes the content virality. Users can also
+          filter to see the network effect on particular platforms (Facebook app, BuzzFeed app, BuzzFeed site)
+          or devices. (Mobile web, mobile app, Desktop)</p>
+        <div class="xs-text-center"><img class="xs-mx-auto" src="../images/pound-ui-explore.png" /></div>
+        <div class="xs-text-center xs-border-lighter"><img class="xs-mx-auto" src="../images/pound-ui-3.png" /></div>
     </div>
 
+
     <!-- Training -->
-    <div class="clearfix xs-pb6">
-      <p class="xs-text-1 xs-text-display xs-text-center">Training</p>
+    <div class="clearfix xs-my6">
+      <p class="xs-text-1 xs-text-display xs-text-center">Training & Onboarding</p>
       <p>
-        Along with a project manager and product manager, I put together an onboarding guide and provided
-        training for our the Sale team and Client Services team to learn about the POUND metrics and use
-        the insights to clients.
+          Along with our project manager and product manager, I put together an onboarding guide to train our
+          Client Services team who would be guiding with our advertisers to explore the data in the dashboard.
       </p>
       <div class="xs-text-center"><img class="xs-mx-auto xs-border-lighter" src="../images/pound-101-1.png" /></div>
       <div class="xs-text-center"><img class="xs-mx-auto xs-border-lighter" src="../images/pound-101-3.png" /></div>
     </div>
 
+
     <!-- result -->
     <div class="clearfix xs-pb3">
-      <p class="xs-text-1 xs-text-display xs-text-center">Last words...</p>
+      <p class="xs-text-1 xs-text-display xs-text-center">Results</p>
       <ul>
         <li class="xs-pb2">
-          Pound dashboard was unsupported a year after launch because of a market shift
-          in content consumption on social platforms. I learned the importance of validating
-          an idea against business and market needs early on, and scoping for incremental
-          product development that is flexible to adopt changes.
+            Pound dashboard was no longer being supported because of a market shift in content consumption on
+            distributed social platforms. Despite that, I learned a lot about the importance of incremental
+            product development and how data infrastructure could affect a product downstream.
         </li>
         <li class="xs-pb2">
-          Designing data visualization for a large, dynamic dataset is different than
-          for static dataset because of unforeseen performance and edge cases. I was fortunate
-          to have a close engineering partner to try out a few prototypes with sample data and
-          iterates the design onward to reduce speculation.
+            Designing data visualization for a large, dynamic dataset is different than for static dataset
+            because of unforeseen performance and edge cases. I was fortunate to have a close engineering partner
+            to try out a few prototypes with sample data and iterates the design onward to reduce speculation.
         </li>
         <li class="xs-pb2">
-          I also learn how to productize a novel technology, develop a concise sale pitch as
-          possible through design, storytelling, and metaphor that help to make an idea stick.
+            I also learn how to productize a novel technology, develop a concise sale pitch through design,
+            storytelling, and metaphor in order to make a concept stick.
         </li>
       </ul>
     </div>

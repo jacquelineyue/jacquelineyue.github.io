@@ -3412,8 +3412,8 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 .link-charcoal { color: #313035; border-bottom: 1px solid #313035; padding-bottom: 0.03rem; cursor: pointer; }
 .link-charcoal:hover { color: #313035; font-weight: 400; transition: .25s ease 0s; background: #FFF; border-bottom: 1px solid white; }
 
-.link-project { color: #313035 !important; border-bottom: 1px solid #313035; cursor: pointer; }
-.link-project:hover { color: #9a9a9a !important; border-bottom: 1px solid #c3c5d0 !important; transition: .25s ease 0s; }
+.link-project { color: #313035 !important; cursor: pointer; }
+.link-project:hover { color: #9a9a9a !important; transition: .25s ease 0s; }
 
 .link-project-footer { color: #313035 !important; cursor: pointer; }
 .link-project-footer:hover { color: #9a9a9a !important; transition: .25s ease 0s; }

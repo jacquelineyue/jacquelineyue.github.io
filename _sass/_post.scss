@@ -115,11 +115,9 @@
 
 .link-project {
     color: $charcoal !important;
-    border-bottom: 1px solid $charcoal;
     cursor: pointer;
     &:hover {
       color: $charcoal-md !important;
-      border-bottom: 1px solid $charcoal-lt !important;
       transition: .25s ease 0s;
   }
 }

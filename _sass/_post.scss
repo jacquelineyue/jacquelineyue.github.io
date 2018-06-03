@@ -86,30 +86,24 @@
     display: inline-block;
 }
 
-.link-navy {
-    color: $navy;
-    border-bottom: 2px solid $sky;
-    padding-bottom: 0.2rem;
-    font-weight: 600;
+.link-sky {
+    color: $sky;
     cursor: pointer;
     &:hover {
       color: $sky;
-      border-bottom: 2px solid $sky;
+      border-bottom: 1px solid $sky;
       transition: .25s ease 0s;
   }
 }
 
 .link-charcoal {
     color: $charcoal;
-    border-bottom: 1px solid $charcoal;
-    padding-bottom: 0.03rem;
+    border-bottom: 1px solid $sky;
     cursor: pointer;
     &:hover {
-      color: $charcoal;
-      font-weight: 400;
+      color: $sky;
       transition: .25s ease 0s;
-      background: #FFF;
-      border-bottom: 1px solid white;
+      border-bottom: 1px solid $sky;
   }
 }
 
@@ -117,7 +111,7 @@
     color: $charcoal !important;
     cursor: pointer;
     &:hover {
-      color: $charcoal-md !important;
+      color: $sky !important;
       transition: .25s ease 0s;
   }
 }

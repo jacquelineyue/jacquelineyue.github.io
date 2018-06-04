@@ -91,7 +91,7 @@
     cursor: pointer;
     &:hover {
       color: $sky;
-      border-bottom: 1px solid $sky;
+      border-bottom: 1px solid $sky-md;
       transition: .25s ease 0s;
   }
 }

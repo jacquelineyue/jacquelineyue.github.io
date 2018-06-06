@@ -3424,7 +3424,7 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 
 .text-xxl { font-size: 3rem !important; line-height: 1.8 !important; font-weight: 700; }
 
-.text-project { font-family: "Heebo", Helvetica, sans-serif !important; font-size: 0.875rem; color: #313035; border-bottom: 1px solid black; padding-top: 1.5rem; display: inline-block; }
+.text-project { font-family: "Heebo", Helvetica, sans-serif !important; font-size: 0.875rem; color: #313035; border-bottom: 1px solid black; padding-top: 1.5rem; padding-bottom: 1.5rem; display: inline-block; }
 
 .link-sky { color: #2c7af7; cursor: pointer; }
 .link-sky:hover { color: #2c7af7; border-bottom: 1px solid #5f99f5; transition: .25s ease 0s; }

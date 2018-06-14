@@ -3436,7 +3436,7 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 .link-project:hover { color: #2c7af7 !important; transition: .25s ease 0s; }
 
 .link-project-footer { color: #313035 !important; cursor: pointer; }
-.link-project-footer:hover { color: #9a9a9a !important; transition: .25s ease 0s; }
+.link-project-footer:hover { color: #2c7af7 !important; transition: .25s ease 0s; }
 
 .sup { vertical-align: super; font-size: 0.75rem; }
 

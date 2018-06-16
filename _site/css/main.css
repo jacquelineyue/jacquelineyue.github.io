@@ -3432,8 +3432,8 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 .link-charcoal { color: #313035; border-bottom: 1px solid #2c7af7; cursor: pointer; }
 .link-charcoal:hover { color: #2c7af7; transition: .25s ease 0s; border-bottom: 1px solid #2c7af7; }
 
-.link-project { color: #313035 !important; cursor: pointer; }
-.link-project:hover { color: #2c7af7 !important; transition: .25s ease 0s; }
+.link-project { color: #313035; border-bottom: 1px solid #2c7af7; cursor: pointer; }
+.link-project:hover { color: #2c7af7; transition: .25s ease 0s; border-bottom: 1px solid #2c7af7; }
 
 .link-project-footer { color: #313035 !important; cursor: pointer; }
 .link-project-footer:hover { color: #2c7af7 !important; transition: .25s ease 0s; }
@@ -3477,7 +3477,7 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 
 .fill-sky { background-color: #2c7af7; }
 
-.fill-sky-lt { background-color: #ebf2fb; }
+.fill-sky-lt { background-color: #f7f9fd; }
 
 .fill-oat { background-color: #f2f0ec; }
 
@@ -3507,6 +3507,6 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 
 .text-sky { color: #2c7af7; }
 
-.text-sky-lt { color: #ebf2fb; }
+.text-sky-lt { color: #f7f9fd; }
 
 .text-coral-lt { color: #f5dcdc; }

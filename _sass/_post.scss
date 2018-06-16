@@ -109,11 +109,13 @@
 }
 
 .link-project {
-    color: $charcoal !important;
+    color: $charcoal;
+    border-bottom: 1px solid $sky;
     cursor: pointer;
     &:hover {
-      color: $sky !important;
+      color: $sky;
       transition: .25s ease 0s;
+      border-bottom: 1px solid $sky;
   }
 }
 

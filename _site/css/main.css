@@ -3345,8 +3345,8 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 .pagination--small .pagination__text { font-size: 0.875rem; }
 
 .xs-text-serif { font-family: "acta-display", 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; }
-.xs-text-sans-serif { font-family: 'Heebo', Arial, serif !important; font-weight: 300 !important; line-height: 2.0 !important; }
-.xs-text-display { font-family: "acta-display", 'Merriweather', Georgia, serif !important; font-weight: 800 !important; line-height: 1.4 !important; }
+.xs-text-sans-serif { font-family: 'Heebo', Arial, serif !important; font-weight: 300 !important; line-height: 1.8 !important; }
+.xs-text-display { font-family: "acta-display", 'Merriweather', Georgia, serif !important; font-weight: 800 !important; line-height: 1.6 !important; }
 .xs-text-xl { font-size: 2.25rem !important; font-weight: 700; }
 .xs-text-xxl { font-size: 3rem !important; font-weight: 700; }
 .xs-text-xxxl { font-size: 5rem !important; font-weight: 700; }
@@ -3362,8 +3362,8 @@ select::-ms-expand, .select::-ms-expand { display: none; }
 .xs-border-left-sky { border-left: 1px solid #5f99f5 !important; }
 
 @media (min-width: 40rem) { .sm-text-serif { font-family: "acta-display", 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; }
-  .sm-text-sans-serif { font-family: 'Heebo', Arial, serif !important; font-weight: 300 !important; line-height: 2.0 !important; }
-  .sm-text-display { font-family: "acta-display", 'Merriweather', Georgia, serif !important; font-weight: 800 !important; line-height: 1.4 !important; }
+  .sm-text-sans-serif { font-family: 'Heebo', Arial, serif !important; font-weight: 300 !important; line-height: 1.8 !important; }
+  .sm-text-display { font-family: "acta-display", 'Merriweather', Georgia, serif !important; font-weight: 800 !important; line-height: 1.6 !important; }
   .sm-text-xl { font-size: 2.25rem !important; font-weight: 700; }
   .sm-text-xxl { font-size: 3rem !important; font-weight: 700; }
   .sm-text-xxxl { font-size: 5rem !important; font-weight: 700; }
@@ -3378,8 +3378,8 @@ select::-ms-expand, .select::-ms-expand { display: none; }
   .sm-border-bottom-sky { border-bottom: 1px solid #5f99f5 !important; }
   .sm-border-left-sky { border-left: 1px solid #5f99f5 !important; } }
 @media (min-width: 52rem) { .md-text-serif { font-family: "acta-display", 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; }
-  .md-text-sans-serif { font-family: 'Heebo', Arial, serif !important; font-weight: 300 !important; line-height: 2.0 !important; }
-  .md-text-display { font-family: "acta-display", 'Merriweather', Georgia, serif !important; font-weight: 800 !important; line-height: 1.4 !important; }
+  .md-text-sans-serif { font-family: 'Heebo', Arial, serif !important; font-weight: 300 !important; line-height: 1.8 !important; }
+  .md-text-display { font-family: "acta-display", 'Merriweather', Georgia, serif !important; font-weight: 800 !important; line-height: 1.6 !important; }
   .md-text-xl { font-size: 2.25rem !important; font-weight: 700; }
   .md-text-xxl { font-size: 3rem !important; font-weight: 700; }
   .md-text-xxxl { font-size: 5rem !important; font-weight: 700; }
@@ -3394,8 +3394,8 @@ select::-ms-expand, .select::-ms-expand { display: none; }
   .md-border-bottom-sky { border-bottom: 1px solid #5f99f5 !important; }
   .md-border-left-sky { border-left: 1px solid #5f99f5 !important; } }
 @media (min-width: 64rem) { .lg-text-serif { font-family: "acta-display", 'Merriweather', Georgia, serif !important; font-weight: 300 !important; line-height: 2.0 !important; }
-  .lg-text-sans-serif { font-family: 'Heebo', Arial, serif !important; font-weight: 300 !important; line-height: 2.0 !important; }
-  .lg-text-display { font-family: "acta-display", 'Merriweather', Georgia, serif !important; font-weight: 800 !important; line-height: 1.4 !important; }
+  .lg-text-sans-serif { font-family: 'Heebo', Arial, serif !important; font-weight: 300 !important; line-height: 1.8 !important; }
+  .lg-text-display { font-family: "acta-display", 'Merriweather', Georgia, serif !important; font-weight: 800 !important; line-height: 1.6 !important; }
   .lg-text-xl { font-size: 2.25rem !important; font-weight: 700; }
   .lg-text-xxl { font-size: 3rem !important; font-weight: 700; }
   .lg-text-xxxl { font-size: 5rem !important; font-weight: 700; }
